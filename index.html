@@ -4,69 +4,83 @@
         <meta charset="UTF-8"> <!-- UTF-8 is human standard -->
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Webpage</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <style>
+            body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        </style>
     </head>
     <body>
-        <div id="header">
+     <div class="container"> 
+        <div class="header">
         <h1>Sports Paradise</h1>
-            </div>
-            <!-- An inline tag can only data or another innline tag inside -->
-            <div id="banner">
-            <h2>Welcome to our website</h2>
-        <p>this is best <spam>website for sports blog!!!!</spam></p>
-        <marquee direction="up">You will find the best articles</marquee>
-        </div>
-        <div id="navigation">
-        <img src="./abstract-sport-background-flat-design_52683-17961.jpg" alt="This is banner" width="80%"/>
-        <a href="./contact.html">Contact us</a> <br/>
-        <a href="./subscribe/subscribe.html">Subscribe here</a> <br/>
-        <a href="https://www.google.com" target="-blank">Click to know more</a> <br/>
-</div>
-      <div id="blog list" class="container area">   
-        <hr/>
-        <h2>Here are some of our blogs</h2>
-        <ol>
-            
-            <li class="blog football">
-                <h3><strong>Jamie O’Hara says League Two and National League should MERGE to save lower league football after coronavirus crisis – ‘It’s a shambles, it needs to happen’</strong></h3>
-                <p>Jamie O’Hara believes League Two and the National League should ‘MERGE’ after the coronavirus crisis to save lower league football.<a href="football_blog.html">Click to know more...</a></p>
-            </li>
-            <li class="blog cricket">
-                <h3><strong>Pros and Cons of the Rise of T20 Cricket!!</strong></h3>
-                <p>T20 Cricket is without any doubt the most popular form of the game in the modern era. <a href="./cricket_blog.html">Click to know more...</a></p>
-            </li>
-            <li class="blog basketball">
-                <h3><strong> Michael Jordan stories that didn't make 'The Last Dance', from elite trash-talking to Knicks' huge offer</strong></h3>
-                <p style="font-size: 20px;">Michael Jordan's entire story is too long to fit into any documentary. As detailed as "The Last Dance" is on most of the important moments of his career, it would be unrealistic to expect every worthwhile element of his legacy into 10 hours.<a href="./basketball_blog.html">Click to know more...</a></p>
-            </li>
-        </ol>
-        </div>
-        <div>
-        <h2>About us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis optio nisi et, fuga error ea doloremque. Delectus molestiae et sit non dolorum beatae illum iure, nostrum laborum praesentium aperiam? Impedit.</p>
-            </div>
-        <!-- Block tags and Inline Tags -->
-        <div>
-            <h2>Conntact us</h2>
-            <div>
-                <h3>Phone number</h3>
-                <p>9023912983</p>
-            </div>
-            <div>
-                <h3>Email us at</h3>
-                <p>myemail@xyz.com</p>
-            </div>
-            <div>
-                <h3>Social media</h3>
-                <p href="#">Instagram</p>
-            </div>
-
-        </div>
-        <a href="#navigation">Go back to top</a>
-
-<div>
-            <h2>Testing/</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi explicabo architecto exercitationem, sunt accusamus beatae tenetur aliquam in, rem excepturi sit, repellat laudantium odit nam. Ad eos illo molestiae praesentium!</p>
+        <a href="./subscribe/subscribe.html">Subscribe here</a>
     </div>
+            <!-- An inline tag can only data or another innline tag inside -->
+       <div class="content">     
+        
+        <div class="intro">
+            <h2>Welcome To The Page!!!!</h2>
+            <span>Read Your Favourite Sport's Blogs Here..</span>
+        </div>
+      <div id="blog list" class="blog-div">   
+        
+        
+            
+            <div class="blog-football">
+                <div class="img-football-div"></div>
+                <h3 style="font-family: cursive;"> Jamie O’Hara says League Two and National League should MERGE to save lower league football after coronavirus crisis – ‘It’s a shambles, it needs to happen’</h3>
+                <p>Jamie O’Hara believes League Two and the National League should ‘MERGE’ after the coronavirus crisis to save lower league football.<a href="football_blog.html">Click to know more...</a></p>
+            </div>
+            <div class="blog-cricket">
+                <div class="img-cricket-div"></div>
+                <h3 style="font-family: cursive;"> Pros and Cons of the Rise of T20 Cricket!!</h3>
+                <p>T20 Cricket is without any doubt the most popular form of the game in the modern era. <a href="./cricket_blog.html">Click to know more...</a></p>
+            </div>
+            <div class="blog-basketball">
+                <div class="img-basketball-div"></div>
+                <h3 style="font-family: cursive;"> Michael Jordan stories that didn't make 'The Last Dance', from elite trash-talking to Knicks' huge offer</h3>
+                <p>Michael Jordan's entire story is too long to fit into any documentary. As detailed as "The Last Dance" is on most of the important moments of his career, it would be unrealistic to expect every worthwhile element of his legacy into 10 hours.<a href="./basketball_blog.html">Click to know more...</a></p>
+            </div>
+        
+        </div>
+        
+        
+        </div>
+        
+  </div>
+
+<footer>
+    <section id="about-section">
+        <h2 style="text-decoration: underline;">About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, rem nihil animi minus nulla beatae, ipsa sunt id velit non odit, deserunt deleniti? Laborum fugit, totam autem dolore reiciendis temporibus!</p>
+    </section>
+    <div id="contact-section">
+        <h2 style="text-decoration: underline;">Contact Us</h2>
+
+        <div class="contact-method">
+            <h3>Phone Number</h3>
+            <p>95xxxxxx01</p>
+        </div>
+
+        <div class="contact-method">
+            <h3>Email Us at</h3>
+            <p>myemail@xyz.com</p>
+        </div>
+        
+        <div class="contact-method">
+            <h3>Social id</h3>
+            <p><a href="#"> Instagram</a></p>
+        </div>
+    </div>
+    <a href="#header">Go back to the top!</a>
+</footer>
+
+
+
     </body>
     
 

@@ -1,0 +1,148 @@
+.container{
+    background: url(../bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 40px 551px 24px;
+    
+    height: 100%; 
+  
+
+  background-position: center;
+  
+}
+.header{
+        position: relative;
+        background-color: #d8d8d8;
+        height: 50px;
+}
+.header > h1{
+    position: absolute;
+    top: -13px;
+    left: 7px;
+    
+}
+.blog-div{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin: 10px;
+    position: absolute;
+    top: 25%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.header > a{
+float: right;
+    background: #78837b;
+    color: white;
+    margin-top: 26px;
+    /* margin-bottom: 0px; */
+    padding: 3px 5px;
+}
+
+.blog-football{
+    background: #cccccc;   
+    /* height: 357px; */
+    padding: 15px;
+    padding-top: 2px;
+    font-family: cursive;
+}
+.blog-list > div{
+    cursor: pointer;
+}
+.blog-football:hover {
+    background: #ffffffe6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.img-football-div{
+    height: 150px;
+    background-size: 390px 133px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-image: url(../jamie.jpg);
+}
+.blog-cricket{
+    background: #cccccc;
+    /* height: 357px; */
+    padding: 15px;
+    padding-top: 2px;
+    font-family: cursive;
+   }
+
+  .blog-cricket:hover {
+    background: #ffffffe6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.img-cricket-div{
+    height: 150px;
+    background-size: 390px 133px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-image: url(../cricket.jpg);
+}
+
+.blog-basketball{
+   
+    /* height: 357px; */
+    padding: 15px;
+    padding-top: 0px;
+    background: #cccccc;
+    font-family: cursive;
+    
+}
+.blog-basketball:hover {
+    background: #ffffffe6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.img-basketball-div{
+    height: 150px;
+    background-size: 390px 133px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-image: url(../michael-jordan-phil-jackson-bulls.jpg);
+}
+.footer{
+        height: 24px;
+        padding: 5px;
+        background-color: #d8d8d8;
+}
+
+.footer > a {
+    padding-right: 10px
+}
+footer{
+    max-width: 100%;
+    background-color: #d8d8d8;
+    margin: 0px auto;
+    padding: 9px;
+    position: relative;
+    top: 0px;
+}
+.intro{
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+    color: white;
+}
+
+#contact-section{
+    text-align: center;
+}
+.contact-method{
+    background-color: #bb7fb3;
+    white-space: nowrap;
+    display: inline-block;
+    width: 25%;
+}
+#about-section{
+    text-align: center;
+}
